@@ -3,6 +3,6 @@ import React from 'react';
 
 class KeyPad extends React.Component {
   render() {
-    return input
+    // return more than one input
   }
 }
