@@ -2,5 +2,7 @@
 import React from 'react';
 
 class KeyPad extends React.Component {
-
+  render() {
+    return input
+  }
 }
