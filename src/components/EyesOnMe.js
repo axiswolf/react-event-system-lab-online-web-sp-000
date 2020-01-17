@@ -6,10 +6,10 @@ class EyesOnMe extends React.Component {
   // event listeners for focus and blur
   // focus => console.log('Good!')
   // blur => console.log(`Hey! Eyes on me!`)
-  Focus = () => console.log(`Good!`);
-  Blur = () => console.log(`Hey! Eyes on me!`)
+  onFocus = () => console.log(`Good!`);
+  onBlur = () => console.log(`Hey! Eyes on me!`)
   render() {
-    return (<button Focus={this.Focus} Blur={this.Blur}>
+    return (<button onFocus={this.onFocus} onBlur={this.onBlur}>
       Eyes on me, please!
       </button>
     )
